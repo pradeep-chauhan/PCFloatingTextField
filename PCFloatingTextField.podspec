@@ -14,6 +14,6 @@ s.source           = { :git => 'https://github.com/pradeep-chauhan/PCFloatingTex
 
 s.ios.deployment_target = '9.0'
 s.source_files = 'PCFloatingTextField/*'
-s.resources = "PCFloatingTextField/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "PCFloatingTextField/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 end

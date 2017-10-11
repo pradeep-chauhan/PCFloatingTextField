@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PCFloatingTextField'
-s.version          = '0.1.0'
+s.version          = '1.0.0'
 s.summary          = 'It is provinding floating textField with delegate methods'
 
 s.description      = <<-DESC

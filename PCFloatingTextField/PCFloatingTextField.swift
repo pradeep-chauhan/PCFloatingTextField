@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol PCFloatingDelegate {
+public protocol PCFloatingDelegate {
     func PCFloatingTextFieldDidBeginEditing(_ textField: UITextField)
     func PCFloatingTextFieldDidEndEditing(_ textField: UITextField)
     func PCFloatingTextFieldShouldReturn(_ textField: UITextField)
@@ -26,7 +26,7 @@ public class PCFloatingTextFiled: UITextField, UITextFieldDelegate {
     fileprivate let placeholderLabelFontSize: CGFloat = 12.0
     fileprivate var placeholderLabel: UILabel?
     fileprivate var titlePlaceholder: String?
-    var PCDelegate:PCFloatingDelegate? = nil
+    public var PCDelegate:PCFloatingDelegate? = nil
     
     override init(frame: CGRect) {
         super.init(frame: frame)
